@@ -37,6 +37,8 @@ const typeDefs = gql`
         me: User
       }
 
+      
+
     type Mutation {
         bookTrips(launchIds: [ID]!): TripUpdateResponse!
         cancelTrip(launchId: ID!): TripUpdateResponse!
